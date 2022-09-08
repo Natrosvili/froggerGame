@@ -1,0 +1,58 @@
+.grid {
+    border: 1px solid black;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.endingBlock {
+    background-color: red;
+}
+
+.startingBlock {
+    background: blue;
+}
+
+.logLeft, .logRight {
+    background-color: lightblue;
+}
+
+#startPauseButton {
+    margin-bottom: 10px;
+    width: 182px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+#startPauseButton:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.l1, .l2, .l3 {
+    background-color: brown;
+}
+
+.l4, .l5 {
+    background-color: lightblue;
+}
+
+.c1 {
+    background-color: black;
+}
+
+.c2, .c3 {
+    background-color: grey;
+}
+
+.frog {
+    background-color: green;
+    z-index: 1;
+}
